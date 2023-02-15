@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  padding: 30px 20px;
+  box-shadow: 0 0 0 4px light grey;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.forms{
+  width: 40%;
+  margin: 30px auto;
+  box-shadow: 0 0 0 10px lightblue;
+  padding: 30px 40px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+label{
+  padding: 10px 20px;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: antiquewhite;
+}
+.sidebar{
+  background-color: black;
+  padding: 40px;
+  width: 17%;
+  height: 700px;
+}
+.link{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+.link:hover{
+  color: white;
+  background-color: aquamarine;
+}
+.container-fluid{
+  display: flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.errormsg{
+  color: red;
+  font-size: smaller;
+  font-style: italic;
+  font-weight: 300;
+}
